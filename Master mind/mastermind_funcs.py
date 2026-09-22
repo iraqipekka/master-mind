@@ -29,6 +29,10 @@ def wrong_position(guess, code):
 
     already_checked = []
 
+    for i in range(4):
+        if guess[i] == code[i]:
+            already_checked.append(i)
+
     for a in range(4):
 
         for b in range(4):
