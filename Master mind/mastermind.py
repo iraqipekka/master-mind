@@ -7,8 +7,6 @@ attempts = 10
 
 while True:
 
-    print(code)
-
     valid_guess = True
 
     for b in range(1, 5):
