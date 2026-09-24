@@ -27,7 +27,7 @@ while True:
             else: 
                 user_guess = int(user_guess)
                 guess.append(user_guess)
-                print(guess)
+
 
     if not valid_guess:
         guess.clear()
