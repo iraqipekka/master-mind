@@ -35,9 +35,11 @@ while True:
          
     if guess == code:
         print("You win")
+        print(f"Code was {code}")
         exit()
     elif attempts == 0:
         print("You lose")
+        print(f"Code was {code} ")
         exit()
     else: 
         attempts -= 1
